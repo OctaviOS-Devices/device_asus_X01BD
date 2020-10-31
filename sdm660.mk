@@ -373,7 +373,17 @@ PRODUCT_PACKAGES += \
     init.qcom.usb.rc \
     init.recovery.qcom.rc \
     init.target.rc \
-    ueventd.qcom.rc
+    ueventd.qcom.rc \
+    init.safailnet.rc
+
+# Recovery
+PRODUCT_PACKAGES += \
+    librecovery_updater_X01BD
+
+# RetroMusicPlayer
+PRODUCT_PACKAGES += \
+    RetroMusicPlayer
+>>>>>>> 5879b950... Introduce 'SafailNet':device.mk
 
 # Seccomp
 PRODUCT_COPY_FILES += \
