@@ -289,6 +289,10 @@ PRODUCT_PACKAGES += \
    PixelOverlay \
    PixelSettingsOverlay
 
+# GVisual Mod
+PRODUCT_PACKAGES += \
+    G-UIRadiusAndroid \
+    G-UIRadiusSystemUI
 # IPv6
 PRODUCT_PACKAGES += \
     ebtables \
