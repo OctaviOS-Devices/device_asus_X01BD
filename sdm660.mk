@@ -141,6 +141,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1
 
+# Doze
+PRODUCT_PACKAGES += \
+    CustomDoze
+
 # FM
 PRODUCT_PACKAGES += \
     android.hardware.broadcastradio@1.0-impl \

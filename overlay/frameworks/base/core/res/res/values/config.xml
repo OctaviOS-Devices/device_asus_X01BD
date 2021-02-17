@@ -18,6 +18,13 @@
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <!-- Enable doze alwaysOn Display -->
+    <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
+
+    <!-- Control whether the always on display mode is enabled by default. This value will be used
+         during initialization when the setting is still null. -->
+    <bool name="config_dozeAlwaysOnEnabled">true</bool>
+
     <!-- Set to true to add links to Cell Broadcast app from Settings and MMS app. -->
     <bool name="config_cellBroadcastAppLinks">true</bool>
 
@@ -226,7 +233,10 @@
     <!-- Whether device supports double tap to wake -->
     <bool name="config_supportDoubleTapWake">true</bool>
 
-    <!-- List of biometric sensors on the device, in decreasing strength. Consumed by AuthService
+    <!-- Whether to enable doze always on -->
+    <bool name="config_enableDozeAlwaysOn">true</bool>
+    
+<!-- List of biometric sensors on the device, in decreasing strength. Consumed by AuthService
          when registering authenticators with BiometricService. Format must be ID:Modality:Strength,
          where: IDs are unique per device, Modality as defined in BiometricAuthenticator.java,
          and Strength as defined in Authenticators.java -->
