@@ -170,7 +170,8 @@ PRODUCT_PACKAGES += \
 
 # Doze
 PRODUCT_PACKAGES += \
-    AsusDoze
+    AsusDoze \
+    CustomDoze
 
 # FM
 PRODUCT_PACKAGES += \
