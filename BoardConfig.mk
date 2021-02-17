@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2019-2020 Havoc-OS
+# Copyright (C) 2019-2020 OctaviOS
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -17,7 +17,8 @@
 DEVICE_PATH := device/asus/X01BD
 
 BUILD_BROKEN_DUP_RULES := true
-
+BUILD_BROKEN_USES_BUILD_COPY_HEADERS := true
+SKIP_ABI_CHECKS := true
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := sdm660
 TARGET_NO_BOOTLOADER := true

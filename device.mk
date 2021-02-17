@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2019-2020 Havoc-OS
+# Copyright (C) 2019-2020 OctaviOS
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -458,3 +458,18 @@ PRODUCT_PACKAGES += \
 
 # Call the proprietary setup
 $(call inherit-product, vendor/asus/X01BD/X01BD-vendor.mk)
+
+YOUR_HW_PLATFORM := msm8998
+
+# Hardware
+PRODUCT_BOARD_PLATFORM := $(YOUR_HW_PLATFORM) 
+PRODUCT_USES_QCOM_HARDWARE := true
+
+# HALS
+SRC_AUDIO_HAL_DIR := hardware/qcom-caf/$(YOUR_HW_PLATFORM)/audio 
+SRC_DISPLAY_HAL_DIR := hardware/qcom-caf/$(YOUR_HW_PLATFORM)/display 
+SRC_MEDIA_HAL_DIR := hardware/qcom-caf/$(YOUR_HW_PLATFORM)/media
+
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += device/asus/X01BD
+PRODUCT_SOONG_NAMESPACES += hardware/qcom-caf/msm8998
