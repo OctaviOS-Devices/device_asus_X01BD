@@ -27,7 +27,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 
 # Official Octavi
 OCTAVI_BUILD_TYPE := OFFICIAL
-OCTAVI_DEVICE_MAINTAINER := 🔥Curious_To_Learn🔥
+OCTAVI_DEVICE_MAINTAINER := 🔥Kunmun🔥
 
 # Google Connectivity Services
 TARGET_INCLUDE_WIFI_EXT := true
