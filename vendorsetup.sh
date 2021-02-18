@@ -1,4 +1,5 @@
 export SELINUX_IGNORE_NEVERALLOWS=true
+export SKIP_ABI_CHECKS=true
 rm -rf vendor/qcom/opensource/power
 rm -rf hardware/qcom-caf/msm8998
 git clone https://github.com/LineageOS/android_hardware_qcom_display -b lineage-18.1-caf-msm8998 hardware/qcom-caf/msm8998/display
