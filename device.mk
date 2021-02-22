@@ -20,6 +20,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 # HIDL HALs
 $(call inherit-product, $(LOCAL_PATH)/hidl-hals.mk)
 
+# Inherit packages from vendor/addons/oneplus/apps
+$(call inherit-product, vendor/addons/oneplus/apps/config.mk)
+
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2280
 TARGET_SCREEN_WIDTH := 1080
