@@ -1,5 +1,3 @@
-binder_call(system_app, storaged)
-
 # Backlight Dimmer
 allow system_app sysfs_backlight:file { open read getattr write };
 

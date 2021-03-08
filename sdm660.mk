@@ -388,7 +388,6 @@ PRODUCT_PACKAGES += \
 # RetroMusicPlayer
 PRODUCT_PACKAGES += \
     RetroMusicPlayer
->>>>>>> 5879b950... Introduce 'SafailNet':device.mk
 
 # Seccomp
 PRODUCT_COPY_FILES += \
